@@ -12,8 +12,8 @@ import picocli.CommandLine.Command;
 import picocli.CommandLine.Option;
 import picocli.CommandLine.Parameters;
 
-@Command(name = "cygmon", mixinStandardHelpOptions = true, version = "cygmon 1.0",
-description = "Monitoring using CyGlass Dashboard")
+@Command(name = "aeglemon", mixinStandardHelpOptions = true, version = "aeglemon 1.0",
+description = "Monitoring using Aeglemon Dashboard")
 public class AegleMonitorMain implements Callable {
 	
     private static final Logger logger = LoggerFactory.getLogger(AegleMonitorMain.class);
