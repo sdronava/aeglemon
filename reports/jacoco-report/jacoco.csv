@@ -1,0 +1,11 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+Aegle Monitoring,com.aegle.monitor.status,StatusTrileon,0,34,0,0,0,4,0,1,0,1
+Aegle Monitoring,com.aegle.monitor.status,StatusColor,0,54,0,0,0,6,0,1,0,1
+Aegle Monitoring,com.aegle.monitor.status,ThresholdLimitException,0,4,0,0,0,2,0,1,0,1
+Aegle Monitoring,com.aegle.monitor.status,TrileanStatus,0,27,0,4,0,6,0,6,0,4
+Aegle Monitoring,com.aegle.monitor.status,BooleanStatus,0,20,0,2,0,5,0,5,0,4
+Aegle Monitoring,com.aegle.monitor.status,ThresholdStatus,0,19,2,4,0,5,2,3,0,2
+Aegle Monitoring,com.aegle.monitor,Metric,0,31,0,0,0,5,0,9,0,9
+Aegle Monitoring,com.aegle.monitor,AeglemonCommand,0,24,0,0,0,3,0,1,0,1
+Aegle Monitoring,com.aegle.monitor,AegleMonitorMain,0,34,0,0,0,8,0,4,0,4
+Aegle Monitoring,com.aegle.monitor,Environment,0,34,0,0,0,4,0,1,0,1

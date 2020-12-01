@@ -14,7 +14,7 @@ import picocli.CommandLine.Parameters;
 
 @Command(name = "aeglemon", mixinStandardHelpOptions = true, version = "aeglemon 1.0",
 description = "Monitoring using Aeglemon Dashboard")
-public class AegleMonitorMain implements Callable {
+public class AegleMonitorMain implements Callable { 
 	
     private static final Logger logger = LoggerFactory.getLogger(AegleMonitorMain.class);
 
@@ -22,7 +22,7 @@ public class AegleMonitorMain implements Callable {
     @Option(names = { "-e",  "--env"},defaultValue = "develop",  description = "Specify the environment")
     private Environment env;
  
-    @Parameters(index = "0", description = "Command to run")
+    @Parameters(index = "0", description = "Command to run with aeglemon")
     private AeglemonCommand command;
     
     public static int mainCommand(String [] args) {
